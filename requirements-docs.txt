@@ -1,0 +1,3 @@
+# Somente para regenerar PDFs. A aplicação e os testes não usam estes pacotes.
+reportlab>=4,<5
+pypdf>=5,<7

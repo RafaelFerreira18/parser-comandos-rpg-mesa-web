@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+tmp/
+node_modules/
+parser-comandos-rpg-mesa-web.zip

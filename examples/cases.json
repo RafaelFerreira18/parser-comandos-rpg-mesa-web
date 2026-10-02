@@ -1,0 +1,22 @@
+{
+  "rolar": {
+    "accepted": ["/rolar 1d4", "/rolar 20d100+99", "/rolar 2d6-3", "/rolar 10d10+0", "/rolar 1d20-99", "/rolar 3d12+05"],
+    "rejected": ["", "/rolar 0d6", "/rolar 21d6", "/rolar 1d7", "/rolar 1d6+100", "/rolar 1d6\n"]
+  },
+  "atacar": {
+    "accepted": ["/atacar a bonus=0 ca=1 dano=1d4", "/atacar goblin bonus=5 ca=14 dano=1d8+2", "/atacar orc_2 bonus=-99 ca=99 dano=20d100+99", "/atacar dragao bonus=+9 ca=20 dano=2d12", "/atacar x1 bonus=00 ca=2 dano=1d6-99", "/atacar lobo bonus=-1 ca=12 dano=3d10+05"],
+    "rejected": ["", "/atacar 1orc bonus=0 ca=1 dano=1d4", "/atacar orc bonus=100 ca=10 dano=1d6", "/atacar orc bonus=0 ca=0 dano=1d6", "/atacar orc ca=10 bonus=0 dano=1d6", "/atacar orc bonus=0 ca=10 dano=0d6"]
+  },
+  "magia": {
+    "accepted": ["/magia a alvo=b cd=1 bonus=0 dano=1d4", "/magia fogo alvo=goblin cd=12 bonus=3 dano=2d6", "/magia gelo_2 alvo=orc_1 cd=99 bonus=-99 dano=20d100+99", "/magia raio alvo=a1 cd=20 bonus=+5 dano=1d20-99", "/magia fogo alvo=ana cd=2 bonus=00 dano=3d8", "/magia luz alvo=elfo cd=15 bonus=-1 dano=2d12+05"],
+    "rejected": ["", "/magia 2fogo alvo=b cd=1 bonus=0 dano=1d4", "/magia fogo alvo=_a cd=1 bonus=0 dano=1d4", "/magia fogo alvo=b cd=00 bonus=0 dano=1d4", "/magia fogo alvo=b cd=1 bonus=0 dano=1d7", "/magia fogo alvo=b bonus=0 cd=1 dano=1d4"]
+  },
+  "curar": {
+    "accepted": ["/curar a 1d4", "/curar ana 2d8+3", "/curar elfo_2 20d100+99", "/curar x1 1d20-99", "/curar paladino 3d12+05", "/curar clerigo 10d10+0"],
+    "rejected": ["", "/curar 1ana 1d4", "/curar Ana 1d4", "/curar ana 21d6", "/curar ana 1d6+100", "/curar ana  1d4"]
+  },
+  "teste": {
+    "accepted": ["/teste forca bonus=0 cd=1", "/teste destreza bonus=-99 cd=99", "/teste constituicao bonus=+5 cd=12", "/teste inteligencia bonus=00 cd=20", "/teste sabedoria bonus=-1 cd=15", "/teste carisma bonus=99 cd=2"],
+    "rejected": ["", "/teste sorte bonus=0 cd=1", "/teste forca bonus=100 cd=1", "/teste forca bonus=0 cd=0", "/teste forca cd=1 bonus=0", "/teste forca bonus=0 cd=1 "]
+  }
+}

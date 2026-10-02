@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grimório · Parser de RPG</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><a class="brand" href="/">◇ GRIMÓRIO</a><span>LINGUAGENS FORMAIS & AUTÔMATOS</span></header>
+<main>
+<section class="intro"><p class="eyebrow">SUA MESA, UM COMANDO DE CADA VEZ</p><h1>O próximo movimento<br>começa aqui.</h1><p>Role dados, enfrente criaturas e conjure magia.<br>Escreva seu comando. Deixe o grimório interpretar.</p><div class="tag">Python + expressões regulares · 5 tipos de ação</div></section>
+<section class="console" aria-labelledby="console-title"><div class="section-top"><h2 id="console-title">Mesa de comandos</h2><span id="connection">● Local</span></div>
+<form id="command-form"><label for="command">Seu comando</label><div class="input-line"><span aria-hidden="true">›</span><input id="command" name="comando" autocomplete="off" spellcheck="false" maxlength="512" placeholder="/rolar 2d6+3" aria-describedby="validation" required><button id="execute" type="submit">Executar ↗</button></div><p id="validation" role="status" aria-live="polite">Digite um comando ou escolha um exemplo abaixo.</p></form>
+<div class="examples"><p>EXPERIMENTE</p><div id="examples"></div></div>
+<div class="history-heading"><h3>Registro da aventura</h3><button id="clear" type="button">Limpar registro</button></div><div id="history" aria-live="polite"><p class="empty">Sua aventura ainda não começou.<br>O resultado da primeira ação aparecerá aqui.</p></div></section>
+<section class="guide"><h2>Regras deste grimório</h2><p>Use letras minúsculas e um espaço entre os campos. Nomes aceitam letras de a a z, números e sublinhado, começando por letra.</p><p>Até 20 dados por rolagem. Faces: 4, 6, 8, 10, 12, 20 ou 100. Modificador opcional de -99 a +99. Ataques e testes comparam d20 + bônus ao alvo. Magias causam metade do dano quando o alvo resiste.</p><p>Sistema didático independente: sem críticos, fichas ou persistência de pontos de vida. A validação ao digitar não lança dados.</p></section>
+</main><footer>Parser de Comandos de RPG de Mesa (Web) <span>Projeto de Linguagens Formais e Autômatos</span></footer>
+</body></html>
